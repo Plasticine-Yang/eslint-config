@@ -1,6 +1,6 @@
 {
   "name": "@plasticine/eslint-config-basic",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "basic eslint config",
   "author": "Plasticine-Yang",
   "homepage": "https://github.com/Plasticine-Yang/eslint-config",

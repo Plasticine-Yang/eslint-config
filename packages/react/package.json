@@ -1,6 +1,6 @@
 {
   "name": "@plasticine/eslint-config-react",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "react eslint config",
   "author": "Plasticine-Yang",
   "homepage": "https://github.com/Plasticine-Yang/eslint-config",
