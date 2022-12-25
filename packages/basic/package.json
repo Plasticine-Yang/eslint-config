@@ -1,0 +1,21 @@
+{
+  "name": "@plasticine/eslint-config-basic",
+  "version": "0.0.0",
+  "description": "basic eslint config",
+  "author": "Plasticine-Yang",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "eslint-config"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-plugin-unicorn": "^45.0.2"
+  }
+}

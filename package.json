@@ -1,0 +1,15 @@
+{
+  "name": "@plasticine/eslint-config-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@7.1.0",
+  "author": "Plasticine-Yang",
+  "license": "MIT",
+  "scripts": {
+    "release": "bumpp package.json"
+  },
+  "devDependencies": {
+    "bumpp": "^8.2.1",
+    "eslint": "^8.30.0"
+  }
+}
