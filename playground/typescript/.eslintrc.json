@@ -1,0 +1,4 @@
+{
+  "root": true,
+  "extends": ["@plasticine/eslint-config-typescript"]
+}

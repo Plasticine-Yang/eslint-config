@@ -1,0 +1,27 @@
+{
+  "name": "@plasticine/eslint-config-typescript",
+  "version": "0.0.0",
+  "description": "typescript eslint config",
+  "author": "Plasticine-Yang",
+  "homepage": "https://github.com/Plasticine-Yang/eslint-config",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "eslint-config"
+  ],
+  "dependencies": {
+    "@plasticine/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "typescript": "^4.9.4"
+  }
+}

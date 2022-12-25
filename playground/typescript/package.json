@@ -1,0 +1,14 @@
+{
+  "name": "@plasticine/eslint-config-typescript-playground",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@7.1.0",
+  "author": "Plasticine-Yang",
+  "license": "MIT",
+  "devDependencies": {
+    "@plasticine/eslint-config-typescript": "workspace:^0.0.0",
+    "@types/node": "^18.11.17",
+    "typescript": "^4.9.4"
+  }
+}
