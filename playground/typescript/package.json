@@ -1,5 +1,5 @@
 {
-  "name": "@plasticine/eslint-config-typescript-playground",
+  "name": "@plasticine-yang/eslint-config-typescript-playground",
   "version": "0.0.0",
   "type": "module",
   "private": true,

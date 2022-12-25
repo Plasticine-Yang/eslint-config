@@ -1,5 +1,5 @@
 {
-  "name": "@plasticine/eslint-config-monorepo",
+  "name": "@plasticine-yang/eslint-config-monorepo",
   "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@7.1.0",
