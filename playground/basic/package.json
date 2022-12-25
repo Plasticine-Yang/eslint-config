@@ -7,6 +7,6 @@
   "author": "Plasticine-Yang",
   "license": "MIT",
   "devDependencies": {
-    "@plasticine/eslint-config-basic": "workspace:^0.0.0"
+    "@plasticine/eslint-config-basic": "workspace:*"
   }
 }
