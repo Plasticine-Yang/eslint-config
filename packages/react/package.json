@@ -1,0 +1,23 @@
+{
+  "name": "@plasticine/eslint-config-react",
+  "version": "0.0.0",
+  "description": "react eslint config",
+  "author": "Plasticine-Yang",
+  "homepage": "https://github.com/Plasticine-Yang/eslint-config",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "eslint-config"
+  ],
+  "dependencies": {
+    "@plasticine/eslint-config-basic": "workspace:*",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0"
+  }
+}
