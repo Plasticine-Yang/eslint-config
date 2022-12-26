@@ -1,7 +1,7 @@
 /** @type { import('eslint').ESLint.ConfigData } */
 module.exports = {
   extends: [
-    '@plasticine/eslint-config-basic',
+    '@plasticine-yang/eslint-config-basic',
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
   ],
