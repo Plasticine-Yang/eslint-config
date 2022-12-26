@@ -16,10 +16,10 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "eslint-plugin-import": "^2.26.0"
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-unicorn": "^45.0.2"
   },
   "devDependencies": {
-    "eslint": "^8.30.0",
-    "eslint-plugin-unicorn": "^45.0.2"
+    "eslint": "^8.30.0"
   }
 }
