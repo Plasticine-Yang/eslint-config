@@ -7,7 +7,7 @@
   "author": "Plasticine-Yang",
   "license": "MIT",
   "devDependencies": {
-    "@plasticine/eslint-config-typescript": "workspace:^0.0.0",
+    "@plasticine-yang/eslint-config-typescript": "workspace:^0.0.0",
     "@types/node": "^18.11.17",
     "typescript": "^4.9.4"
   }

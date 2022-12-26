@@ -6,6 +6,9 @@
   "homepage": "https://github.com/Plasticine-Yang/eslint-config",
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "eslint-config"
   ],

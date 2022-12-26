@@ -6,11 +6,14 @@
   "homepage": "https://github.com/Plasticine-Yang/eslint-config",
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "eslint-config"
   ],
   "dependencies": {
-    "@plasticine/eslint-config-basic": "workspace:*",
+    "@plasticine-yang/eslint-config-basic": "workspace:*",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0"
   },
