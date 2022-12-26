@@ -23,12 +23,12 @@ importers:
 
   packages/react:
     specifiers:
-      '@plasticine/eslint-config-basic': workspace:*
+      '@plasticine-yang/eslint-config-basic': workspace:*
       eslint: ^8.30.0
       eslint-plugin-react: ^7.31.11
       eslint-plugin-react-hooks: ^4.6.0
     dependencies:
-      '@plasticine/eslint-config-basic': link:../basic
+      '@plasticine-yang/eslint-config-basic': link:../basic
       eslint-plugin-react: 7.31.11_eslint@8.30.0
       eslint-plugin-react-hooks: 4.6.0_eslint@8.30.0
     devDependencies:
@@ -36,7 +36,7 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@plasticine/eslint-config-basic': workspace:*
+      '@plasticine-yang/eslint-config-basic': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.47.0
       '@typescript-eslint/parser': ^5.47.0
       eslint: ^8.30.0
@@ -44,7 +44,7 @@ importers:
       eslint-plugin-import: ^2.26.0
       typescript: ^4.9.4
     dependencies:
-      '@plasticine/eslint-config-basic': link:../basic
+      '@plasticine-yang/eslint-config-basic': link:../basic
       '@typescript-eslint/eslint-plugin': 5.47.0_ncmi6noazr3nzas7jxykisekym
       '@typescript-eslint/parser': 5.47.0_lzzuuodtsqwxnvqeq4g4likcqa
       eslint-import-resolver-typescript: 3.5.2_2lbwmhbr7bncddqbzzpg77o75m
@@ -55,17 +55,17 @@ importers:
 
   playground/basic:
     specifiers:
-      '@plasticine/eslint-config-basic': workspace:^0.0.0
+      '@plasticine-yang/eslint-config-basic': workspace:*
     devDependencies:
-      '@plasticine/eslint-config-basic': link:../../packages/basic
+      '@plasticine-yang/eslint-config-basic': link:../../packages/basic
 
   playground/typescript:
     specifiers:
-      '@plasticine/eslint-config-typescript': workspace:^0.0.0
+      '@plasticine-yang/eslint-config-typescript': workspace:*
       '@types/node': ^18.11.17
       typescript: ^4.9.4
     devDependencies:
-      '@plasticine/eslint-config-typescript': link:../../packages/typescript
+      '@plasticine-yang/eslint-config-typescript': link:../../packages/typescript
       '@types/node': 18.11.17
       typescript: 4.9.4
 
