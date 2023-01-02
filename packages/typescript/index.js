@@ -2,23 +2,10 @@
 module.exports = {
   extends: [
     '@plasticine-yang/eslint-config-basic',
-    'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
   ],
 
   parser: '@typescript-eslint/parser',
-
-  settings: {
-    'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx', '.d.ts'],
-    },
-
-    'import/resolver': {
-      node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx', '.d.ts'],
-      },
-    },
-  },
 
   rules: {
     // typescript

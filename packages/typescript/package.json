@@ -15,9 +15,7 @@
   "dependencies": {
     "@plasticine-yang/eslint-config-basic": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.47.0",
-    "@typescript-eslint/parser": "^5.47.0",
-    "eslint-import-resolver-typescript": "^3.5.2",
-    "eslint-plugin-import": "^2.26.0"
+    "@typescript-eslint/parser": "^5.47.0"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0",
