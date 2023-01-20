@@ -13,6 +13,7 @@ module.exports = {
   rules: {
     // common
     'no-extra-semi': 'off',
+    'no-empty': 'off',
 
     // unicorn
     // Pass error message when throwing errors
