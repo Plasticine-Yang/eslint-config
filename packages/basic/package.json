@@ -1,6 +1,6 @@
 {
   "name": "@plasticine-yang/eslint-config-basic",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "basic eslint config",
   "author": "Plasticine-Yang",
   "homepage": "https://github.com/Plasticine-Yang/eslint-config",
@@ -14,7 +14,7 @@
   ],
   "peerDependencies": {
     "eslint": ">=7.4.0",
-    "prettier": "^2.8.1"
+    "prettier": ">=2.8.1"
   },
   "dependencies": {
     "eslint-config-prettier": "^8.5.0",
