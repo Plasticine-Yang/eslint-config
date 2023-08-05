@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "CommonJS",
+    "target": "ES5",
+    "lib": ["ESNext"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "allowJs": true,
+  },
+  "include": ["packages/**/*.ts"],
+  "exclude": ["node_modules"]
+}

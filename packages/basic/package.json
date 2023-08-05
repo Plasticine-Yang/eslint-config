@@ -5,10 +5,14 @@
   "author": "Plasticine-Yang",
   "homepage": "https://github.com/Plasticine-Yang/eslint-config",
   "license": "MIT",
-  "main": "index.js",
+  "main": "dist/index.js",
   "files": [
-    "index.js"
+    "dist"
   ],
+  "scripts": {
+    "build": "tsup",
+    "lint": "eslint src --fix"
+  },
   "keywords": [
     "eslint-config"
   ],

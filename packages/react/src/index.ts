@@ -1,5 +1,6 @@
-/** @type { import('eslint').ESLint.ConfigData } */
-module.exports = {
+import { Linter } from 'eslint'
+
+const config: Linter.Config = {
   extends: [
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
@@ -19,3 +20,5 @@ module.exports = {
     'react/prop-types': 'off',
   },
 }
+
+module.exports = config

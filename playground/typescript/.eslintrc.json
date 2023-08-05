@@ -1,4 +1,4 @@
 {
   "root": true,
-  "extends": ["@plasticine/eslint-config-typescript"]
+  "extends": ["@plasticine-yang/eslint-config-typescript"]
 }

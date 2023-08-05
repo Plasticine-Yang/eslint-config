@@ -1,5 +1,6 @@
-/** @type { import('eslint').ESLint.ConfigData } */
-module.exports = {
+import { Linter } from 'eslint'
+
+const config: Linter.Config = {
   env: {
     es6: true,
     browser: true,
@@ -32,3 +33,5 @@ module.exports = {
     'unicorn/throw-new-error': 'error',
   },
 }
+
+module.exports = config

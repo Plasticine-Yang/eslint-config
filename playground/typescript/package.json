@@ -6,6 +6,9 @@
   "packageManager": "pnpm@7.1.0",
   "author": "Plasticine-Yang",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint src"
+  },
   "devDependencies": {
     "@plasticine-yang/eslint-config-typescript": "workspace:*",
     "@types/node": "^18.11.17",
