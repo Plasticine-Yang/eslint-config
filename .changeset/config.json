@@ -2,10 +2,16 @@
   "$schema": "https://unpkg.com/@changesets/config@2.3.0/schema.json",
   "changelog": "@changesets/cli/changelog",
   "commit": false,
-  "fixed": [],
+  "fixed": [
+    [
+      "@plasticine-yang/eslint-config-basic",
+      "@plasticine-yang/eslint-config-typescript",
+      "@plasticine-yang/eslint-config-react"
+    ]
+  ],
   "linked": [],
   "access": "restricted",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": []
+  "ignore": ["@plasticine-yang/eslint-config-basic-playground", "@plasticine-yang/eslint-config-typescript-playground"]
 }
