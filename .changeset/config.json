@@ -10,7 +10,7 @@
     ]
   ],
   "linked": [],
-  "access": "restricted",
+  "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
   "ignore": ["@plasticine-yang/eslint-config-basic-playground", "@plasticine-yang/eslint-config-typescript-playground"]
