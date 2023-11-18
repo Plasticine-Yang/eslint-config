@@ -18,13 +18,13 @@
   ],
   "dependencies": {
     "@plasticine-yang/eslint-config-basic": "workspace:*",
-    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"
   },
   "devDependencies": {
-    "eslint": "^8.30.0"
+    "eslint": "^8.54.0"
   }
 }
